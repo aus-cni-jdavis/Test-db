@@ -31,7 +31,11 @@ INSERT INTO dbo.Products (Name, Category, Price, Stock) VALUES
     ('Winter Jacket',         'Apparel',     119.99,   80),
     ('Python Programming',    'Books',        39.99,  120),
     ('SQL in 10 Minutes',     'Books',        29.99,   95),
-    ('Clean Code',            'Books',        34.99,  110);
+    ('Clean Code',            'Books',        34.99,  110),
+    ('Desk Lamp',             'Electronics',  22.99,   85),
+    ('Yoga Mat',              'Apparel',      35.99,  175),
+    ('The Pragmatic Programmer', 'Books',     45.99,   90),
+    ('Webcam 1080p',          'Electronics',  69.99,   55);
 GO
 
 -- --------------------------------------------------------
