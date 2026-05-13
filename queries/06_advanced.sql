@@ -23,6 +23,8 @@ SELECT
     TotalSpent
 FROM CustomerSpend;
 
+---------- Hello Added 2026-5-13 -------------------
+
 -- 2. Subquery: Products that have never been ordered
 SELECT ProductID, Name, Category, Price, Stock
 FROM dbo.Products
