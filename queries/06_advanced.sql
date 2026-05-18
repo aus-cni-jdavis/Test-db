@@ -24,6 +24,7 @@ SELECT
 FROM CustomerSpend;
 
 ---------- Hello Added 2026-5-13 -------------------
+----------- Hi ------------
 
 -- 2. Subquery: Products that have never been ordered
 SELECT ProductID, Name, Category, Price, Stock
