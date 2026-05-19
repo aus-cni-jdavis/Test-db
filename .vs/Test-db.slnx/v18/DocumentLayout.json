@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Dev-Jaylen\\Documents\\source\\Test-db\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dev-Jaylen\\Documents\\source\\Test-db\\queries\\03_basic_selects.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:queries\\03_basic_selects.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dev-Jaylen\\Documents\\source\\Test-db\\seed\\02_seed_data.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:seed\\02_seed_data.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dev-Jaylen\\Documents\\source\\Test-db\\schema\\01_create_tables.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:schema\\01_create_tables.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dev-Jaylen\\Documents\\source\\Test-db\\seed\\02_seed_data.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:seed\\02_seed_data.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dev-Jaylen\\Documents\\source\\Test-db\\queries\\03_basic_selects.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:queries\\03_basic_selects.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,43 +34,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "03_basic_selects.sql - (localdb)\\MSSQLLocalDB.master (DESKTOP-6HG5UKH\\Dev-Jaylen (88))",
+              "DocumentIndex": 2,
+              "Title": "03_basic_selects.sql - not connected",
               "DocumentMoniker": "C:\\Users\\Dev-Jaylen\\Documents\\source\\Test-db\\queries\\03_basic_selects.sql",
               "RelativeDocumentMoniker": "queries\\03_basic_selects.sql",
-              "ToolTip": "C:\\Users\\Dev-Jaylen\\Documents\\source\\Test-db\\queries\\03_basic_selects.sql - (localdb)\\MSSQLLocalDB.master (DESKTOP-6HG5UKH\\Dev-Jaylen (88))",
-              "RelativeToolTip": "queries\\03_basic_selects.sql - (localdb)\\MSSQLLocalDB.master (DESKTOP-6HG5UKH\\Dev-Jaylen (88))",
+              "ToolTip": "C:\\Users\\Dev-Jaylen\\Documents\\source\\Test-db\\queries\\03_basic_selects.sql - not connected",
+              "RelativeToolTip": "queries\\03_basic_selects.sql - not connected",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2026-04-16T11:42:53.52Z",
-              "EditorCaption": " - (localdb)\\MSSQLLocalDB.master (DESKTOP-6HG5UKH\\Dev-Jaylen (88))"
+              "EditorCaption": " - not connected"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "01_create_tables.sql - (localdb)\\MSSQLLocalDB.master (DESKTOP-6HG5UKH\\Dev-Jaylen (51))",
+              "Title": "01_create_tables.sql - not connected",
               "DocumentMoniker": "C:\\Users\\Dev-Jaylen\\Documents\\source\\Test-db\\schema\\01_create_tables.sql",
               "RelativeDocumentMoniker": "schema\\01_create_tables.sql",
-              "ToolTip": "C:\\Users\\Dev-Jaylen\\Documents\\source\\Test-db\\schema\\01_create_tables.sql - (localdb)\\MSSQLLocalDB.master (DESKTOP-6HG5UKH\\Dev-Jaylen (51))",
-              "RelativeToolTip": "schema\\01_create_tables.sql - (localdb)\\MSSQLLocalDB.master (DESKTOP-6HG5UKH\\Dev-Jaylen (51))",
+              "ToolTip": "C:\\Users\\Dev-Jaylen\\Documents\\source\\Test-db\\schema\\01_create_tables.sql - not connected",
+              "RelativeToolTip": "schema\\01_create_tables.sql - not connected",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2026-04-16T11:42:28.33Z",
-              "EditorCaption": " - (localdb)\\MSSQLLocalDB.master (DESKTOP-6HG5UKH\\Dev-Jaylen (51))"
+              "EditorCaption": " - not connected"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "02_seed_data.sql - (localdb)\\MSSQLLocalDB.TestDB (DESKTOP-6HG5UKH\\Dev-Jaylen (51))",
+              "DocumentIndex": 0,
+              "Title": "02_seed_data.sql - not connected",
               "DocumentMoniker": "C:\\Users\\Dev-Jaylen\\Documents\\source\\Test-db\\seed\\02_seed_data.sql",
               "RelativeDocumentMoniker": "seed\\02_seed_data.sql",
-              "ToolTip": "C:\\Users\\Dev-Jaylen\\Documents\\source\\Test-db\\seed\\02_seed_data.sql - (localdb)\\MSSQLLocalDB.TestDB (DESKTOP-6HG5UKH\\Dev-Jaylen (51))",
-              "RelativeToolTip": "seed\\02_seed_data.sql - (localdb)\\MSSQLLocalDB.TestDB (DESKTOP-6HG5UKH\\Dev-Jaylen (51))",
+              "ToolTip": "C:\\Users\\Dev-Jaylen\\Documents\\source\\Test-db\\seed\\02_seed_data.sql - not connected",
+              "RelativeToolTip": "seed\\02_seed_data.sql - not connected",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2026-04-16T11:40:28.978Z",
-              "EditorCaption": " - (localdb)\\MSSQLLocalDB.TestDB (DESKTOP-6HG5UKH\\Dev-Jaylen (51))"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "EditorCaption": " - not connected"
             }
           ]
         }
