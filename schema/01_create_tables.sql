@@ -22,6 +22,7 @@ IF OBJECT_ID('dbo.OrderItems', 'U') IS NOT NULL DROP TABLE dbo.OrderItems;
 IF OBJECT_ID('dbo.Orders',     'U') IS NOT NULL DROP TABLE dbo.Orders;
 IF OBJECT_ID('dbo.Products',   'U') IS NOT NULL DROP TABLE dbo.Products;
 IF OBJECT_ID('dbo.Users',      'U') IS NOT NULL DROP TABLE dbo.Users;
+IF OBJECT_ID('dbo.Books',      'U') IS NOT NULL DROP TABLE dbo.Books;
 GO
 
 -- --------------------------------------------------------
@@ -78,6 +79,22 @@ CREATE TABLE dbo.OrderItems (
         ON DELETE CASCADE,
     CONSTRAINT FK_OrderItems_Products FOREIGN KEY (ProductID)
         REFERENCES dbo.Products (ProductID)
+);
+GO
+
+-- --------------------------------------------------------
+-- Books
+-- --------------------------------------------------------
+CREATE TABLE dbo.Books (
+    BookID        INT             IDENTITY(1,1) PRIMARY KEY,
+    Title         NVARCHAR(200)   NOT NULL,
+    Author        NVARCHAR(100)   NOT NULL,
+    ISBN          NVARCHAR(20)    NULL UNIQUE,
+    Genre         NVARCHAR(50)    NULL,
+    PublishedYear INT             NULL CHECK (PublishedYear >= 1000 AND PublishedYear <= 9999),
+    Price         DECIMAL(10, 2)  NOT NULL CHECK (Price >= 0),
+    Stock         INT             NOT NULL DEFAULT 0 CHECK (Stock >= 0),
+    CreatedAt     DATETIME2       NOT NULL DEFAULT GETDATE()
 );
 GO
 
