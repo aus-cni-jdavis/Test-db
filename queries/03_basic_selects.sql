@@ -3,6 +3,7 @@
 -- 03_basic_selects.sql
 -- Basic SELECT queries: filtering, sorting, TOP N.
 -- ============================================================
+-- random change on local machine 
 
 USE TestDB; 
 GO
