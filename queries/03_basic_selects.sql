@@ -1,3 +1,4 @@
+-- hi
 -- ============================================================
 -- 03_basic_selects.sql
 -- Basic SELECT queries: filtering, sorting, TOP N.
